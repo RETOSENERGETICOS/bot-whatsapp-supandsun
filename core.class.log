@@ -1,0 +1,289 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '5212293730421@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB05F900779E80C97598D',
+    participant: undefined
+  },
+  messageTimestamp: 1734359467,
+  pushName: '🅱️arto',
+  broadcast: false,
+  message: Message {
+    conversation: 'hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'hola',
+  from: '5212293730421'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_26194069-8e84-4415-bd3a-924c3c8ed6e7',
+  keyword: 'key_464277bc-f073-4bfa-aa6f-b1b72664ca36',
+  answer: 'Hola 👋 bienvenido al asistente virtual de ☀️ _SUP & SUN_ ☀️, explore nuestro menú escribiendo lo siguiente:',
+  options: {
+    media: 'http://reservaciones.supandsun.com.mx/media/img_bot/ss_logo.jpg',
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '854ab7a9adf731174612796101d80ab7'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_8540bf69-c9b5-4b1e-b1f2-7ae9ac1ca5e7',
+  keyword: 'ans_26194069-8e84-4415-bd3a-924c3c8ed6e7',
+  answer: '🏝️ *1* para ver nuestras actividades.\n' +
+    '🏄 *2* para ver el catálogo de equipos.\n' +
+    '🩱 *3* para ver el catalogo de ropa y accesorios.\n' +
+    '🔹 *4* para consultar el estado de tú reservación.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '2fb639de00a46155160e889fbe777c50'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '14147360023@s.whatsapp.net',
+    fromMe: false,
+    id: '3FFC10F1FE0A1CA58009',
+    participant: undefined
+  },
+  messageTimestamp: 1734361376,
+  pushName: 'FMF',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage { text: '0', contextInfo: [ContextInfo] },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '0',
+  from: '14147360023'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_26194069-8e84-4415-bd3a-924c3c8ed6e7',
+  keyword: 'key_464277bc-f073-4bfa-aa6f-b1b72664ca36',
+  answer: 'Hola 👋 bienvenido al asistente virtual de ☀️ _SUP & SUN_ ☀️, explore nuestro menú escribiendo lo siguiente:',
+  options: {
+    media: 'http://reservaciones.supandsun.com.mx/media/img_bot/ss_logo.jpg',
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '854ab7a9adf731174612796101d80ab7'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_8540bf69-c9b5-4b1e-b1f2-7ae9ac1ca5e7',
+  keyword: 'ans_26194069-8e84-4415-bd3a-924c3c8ed6e7',
+  answer: '🏝️ *1* para ver nuestras actividades.\n' +
+    '🏄 *2* para ver el catálogo de equipos.\n' +
+    '🩱 *3* para ver el catalogo de ropa y accesorios.\n' +
+    '🔹 *4* para consultar el estado de tú reservación.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '2fb639de00a46155160e889fbe777c50'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '14147360023@s.whatsapp.net',
+    fromMe: false,
+    id: '3F68E77D88453BB6FD5D',
+    participant: undefined
+  },
+  messageTimestamp: 1734361428,
+  pushName: 'FMF',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage { text: '1', contextInfo: [ContextInfo] },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '14147360023'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_47f6a189-4c7f-48f1-9b3c-cee6d315411c',
+  keyword: 'key_8b97da8d-d62c-4178-84df-16b4c2d58192',
+  answer: 'La experiencia completa de ☀️ _SUP & SUN_ ☀️ esta en nuestras actividades, para obtener mas información, detalles y hacer una reservación en cada una de ellas escriba:\n' +
+    '\n' +
+    '\n' +
+    '🏄‍♂️ *1* para Paddle board open water.\n' +
+    '🏄‍♀️ *2* para Paddle board Mandinga.\n' +
+    '🧘 *3* para SUP Yoga.\n' +
+    '🧘‍♀️ *4* para Yoga.\n' +
+    '🌊 *5* para Ocean Explorer.\n' +
+    '🚣‍♂️ *6* para Boat Sailing.\n' +
+    '\n' +
+    '\n' +
+    '👉 Para regresar al menú de bienvenida escriba *00*.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object]
+    ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '9da0a0a09405a9b819cc1af9044778fa'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '522295282550@s.whatsapp.net',
+    fromMe: false,
+    id: 'AEEFFD2615BFDE9027B630B468E14D5F',
+    participant: undefined
+  },
+  messageTimestamp: 1734364489,
+  pushName: 'Delarosa🌹',
+  broadcast: false,
+  message: Message {
+    documentMessage: DocumentMessage {
+      url: 'https://mmg.whatsapp.net/v/t62.7119-24/33458559_967932965200975_7999187189730040537_n.enc?ccb=11-4&oh=01_Q5AaIPrhrephAPzY0_-3nR6cSolbCk1WFZNk7eImJizlbDOx&oe=6787D501&_nc_sid=5e03e0&mms3=true',
+      mimetype: 'application/pdf',
+      title: 'PRO840423SG8_XDGC_3038592.pdf',
+      fileSha256: [Uint8Array],
+      fileLength: [Long],
+      pageCount: 1,
+      mediaKey: [Uint8Array],
+      fileName: 'PRO840423SG8_XDGC_3038592.pdf',
+      fileEncSha256: [Uint8Array],
+      directPath: '/v/t62.7119-24/33458559_967932965200975_7999187189730040537_n.enc?ccb=11-4&oh=01_Q5AaIPrhrephAPzY0_-3nR6cSolbCk1WFZNk7eImJizlbDOx&oe=6787D501&_nc_sid=5e03e0&_nc_hot=1734364488',
+      mediaKeyTimestamp: [Long],
+      thumbnailDirectPath: '/v/t62.36145-24/40255449_1009731767845534_5206890676490930247_n.enc?ccb=11-4&oh=01_Q5AaIALwtVHtzXT9zifcXoK2wA2q2cz2TyJg4oi0k6aeOAX3&oe=6787A1B2&_nc_sid=5e03e0',
+      thumbnailSha256: [Uint8Array],
+      thumbnailEncSha256: [Uint8Array],
+      jpegThumbnail: [Uint8Array],
+      contextInfo: [ContextInfo],
+      thumbnailHeight: 31,
+      thumbnailWidth: 19
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '_event_document__58aa6c84-eb2e-4ab3-8eed-1b2e8fb3d3cf',
+  from: '522295282550'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_26194069-8e84-4415-bd3a-924c3c8ed6e7',
+  keyword: 'key_464277bc-f073-4bfa-aa6f-b1b72664ca36',
+  answer: 'Hola 👋 bienvenido al asistente virtual de ☀️ _SUP & SUN_ ☀️, explore nuestro menú escribiendo lo siguiente:',
+  options: {
+    media: 'http://reservaciones.supandsun.com.mx/media/img_bot/ss_logo.jpg',
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '854ab7a9adf731174612796101d80ab7'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_8540bf69-c9b5-4b1e-b1f2-7ae9ac1ca5e7',
+  keyword: 'ans_26194069-8e84-4415-bd3a-924c3c8ed6e7',
+  answer: '🏝️ *1* para ver nuestras actividades.\n' +
+    '🏄 *2* para ver el catálogo de equipos.\n' +
+    '🩱 *3* para ver el catalogo de ropa y accesorios.\n' +
+    '🔹 *4* para consultar el estado de tú reservación.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '2fb639de00a46155160e889fbe777c50'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '14147360023@s.whatsapp.net',
+    fromMe: false,
+    id: '3FDE2353AB0E357674F2',
+    participant: undefined
+  },
+  messageTimestamp: 1734377237,
+  pushName: 'FMF',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage { text: 'HOLA', contextInfo: [ContextInfo] },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'HOLA',
+  from: '14147360023'
+}
