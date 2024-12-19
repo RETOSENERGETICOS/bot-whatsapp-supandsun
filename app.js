@@ -7,7 +7,7 @@ const activities = [
     {
         id: '1',
         title: '🏄‍♂️ *_Travesía en Paddle a la Isla de Sacrificios_*',
-        description: 'Explora la belleza natural del mar de Veracruz en una emocionante travesía de paddle hacia la histórica Isla de Sacrificios. Este recorrido combina la aventura del deporte acuático con paisajes impresionantes de nuestro puerto. Durante el trayecto, disfrutarás del mar, avistarás fauna marina y pasarás un buen rato a cargo de nuestro equipo.\nIdeal para amantes del ecoturismo. ¡Atrévete a remar hacia la aventura!\n\nPrecio: *$590 MXN / PERSONA*',
+        description: 'Explora la belleza natural del mar de Veracruz en una emocionante travesía de paddle hacia la histórica Isla de Sacrificios. Este recorrido combina la aventura del deporte acuático con paisajes impresionantes de nuestro puerto. Durante el trayecto, disfrutarás del mar, avistarás fauna marina y pasarás un buen rato a cargo de nuestro equipo.\nIdeal para amantes del ecoturismo. ¡Atrévete a remar hacia la aventura!\n\nPrecio: *$590 MXN / PERSONA*\n',
         link: 'https://reservaciones.supandsun.com.mx/paddle-board-open-water/',
         image: 'https://reservaciones.supandsun.com.mx/media/img_bot/1.jpg',
     },
@@ -21,7 +21,7 @@ const activities = [
     {
         id: '3',
         title: '🧘 *_SUP Yoga_*',
-        description: 'El SUP Yoga es una práctica que combina dos disciplinas: Stand Up Paddle Surf y el Yoga. En una clase de Sup Yoga se adaptan los aspectos del Yoga: asana, pranayama, mudra y meditación practicándose sobre una tabla de Paddle Surf, por lo que siempre se practica sobre una superficie acuática.\n\nPrecio: *$300 MXN / PERSONA*',
+        description: 'El SUP Yoga es una práctica que combina dos disciplinas: Stand Up Paddle Surf y el Yoga. En una clase de Sup Yoga se adaptan los aspectos del Yoga: asana, pranayama, mudra y meditación practicándose sobre una tabla de Paddle Surf, por lo que siempre se practica sobre una superficie acuática.\n\nPrecio: *$300 MXN / PERSONA*\n',
         link: 'https://reservaciones.supandsun.com.mx/sup-yoga/',
         image: 'https://reservaciones.supandsun.com.mx/media/img_bot/3.jpg',
     },
@@ -55,7 +55,7 @@ const createActivityFlow = (activity) => {
             [
                 activity.description,
                 `✅ Haz una reservación accediendo al siguiente enlace:\n🔗 ${activity.link} \n\n`,
-                '👉 Para regresar al menú de bienvenida escriba *00*.',
+                '👉 Para regresar al menú de bienvenida escriba *0*.',
             ],
             null,
             null,
@@ -70,8 +70,8 @@ const flowMateriales = addKeyword(['2'])
     )
     .addAnswer(
         [
-            '👉 Te compartimos nuestro catálogo de materiales y equipos.',
-            '▶️ Para regresar escriba *0*.',
+            '🧾 Te compartimos nuestro catálogo de materiales y equipos.\n',
+            '👉 Para regresar al menú de bienvenida escriba *0*.',
         ]
     );
 
@@ -81,31 +81,30 @@ const flowRopa = addKeyword(['3'])
     )
     .addAnswer(
         [
-            '👉 Te compartimos nuestro catálogo de ropa y accesorios.',
-            '▶️ Para regresar escriba *0*.',
+            '🧾 Te compartimos nuestro catálogo de ropa y accesorios.\n',
+            '👉 Para regresar al menú de bienvenida escriba *0*.',
         ]
     );
 
-const flowPrincipal = addKeyword(['hola', 'ole', 'alo', 'Hola', '.' , 'Menu', 'menu', 'Inicio', 'inicio', 'Atras', 'atras', '0', '00'])
-    .addAnswer('Hola 👋 bienvenido al asistente virtual de ☀️ _SUP & SUN_ ☀️, explore nuestro menú escribiendo lo siguiente:',
+const flowPrincipal = addKeyword(['hola', 'ole', 'alo', 'Hola', '.' , 'Menu', 'menu', 'Inicio', 'inicio', 'Atras', 'atras', '0'])
+    .addAnswer('¡Hola 👋 bienvenido al asistente virtual de ☀️ _SUP & SUN_ ☀️! Explore nuestro menú escribiendo lo siguiente:',
         { media: "http://reservaciones.supandsun.com.mx/media/img_bot/ss_logo.jpg" }
     )
     .addAnswer(
         [
-            '🏝️ *1* para ver nuestras actividades.',
-            '🏄 *2* para ver el catálogo de equipos.',
-            '🩱 *3* para ver el catálogo de ropa y accesorios.',
+            '🏝️ *1* - para ver nuestras actividades.',
+            '🏄 *2* - para ver el catálogo de equipos.',
+            '🩱 *3* - para ver el catálogo de ropa y accesorios.',
         ],
         null,
         null,
-        [addKeyword(['1']).addAnswer('¡Aquí están nuestras actividades!').addAnswer([
-            '🏄‍♂️ *1* para Paddle board open water.',
-            '🏄‍♀️ *2* para Paddle board Mandinga.',
-            '🧘 *3* para SUP Yoga.',
-            '🧘‍♀️ *4* para Yoga.',
-            '🌊 *5* para Ocean Explorer.',
-            '🚣‍♂️ *6* para Boat Sailing.',
-            '👉 Para regresar al menú de bienvenida escriba *00*.',
+        [addKeyword(['1']).addAnswer('¡Aquí están nuestras actividades!\nObten más información escribiendo:').addAnswer([
+            '🏄‍♂️ *1* - para Paddle board open water.',
+            '🏄‍♀️ *2* - para Paddle board Mandinga.',
+            '🧘 *3* - para SUP Yoga.',
+            '🧘‍♀️ *4* - para Yoga.',
+            '🌊 *5* - para Ocean Explorer.',
+            '🚣‍♂️ *6* - para Boat Sailing.',
         ], null, null, activityFlows), flowMateriales, flowRopa]
     );
 
