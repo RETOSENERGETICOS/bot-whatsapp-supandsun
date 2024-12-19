@@ -6,14 +6,14 @@ const MockAdapter = require('@bot-whatsapp/database/mock');
 const activities = [
     {
         id: '1',
-        title: '🏄‍♂️ *_Travesía en Paddle a la Isla de Sacrificios._*',
+        title: '🏄‍♂️ *_SUP Isla de Sacrificios._*',
         description: 'Explora la belleza natural del mar de Veracruz en una emocionante travesía de paddle hacia la histórica Isla de Sacrificios. Este recorrido combina la aventura del deporte acuático con paisajes impresionantes de nuestro puerto. Durante el trayecto, disfrutarás del mar, avistarás fauna marina y pasarás un buen rato a cargo de nuestro equipo.\nIdeal para amantes del ecoturismo. ¡Atrévete a remar hacia la aventura!\n\nPrecio: *$590 MXN / PERSONA*\n',
         link: 'https://reservaciones.supandsun.com.mx/paddle-board-open-water/',
         image: 'https://reservaciones.supandsun.com.mx/media/img_bot/1.jpg',
     },
     {
         id: '2',
-        title: '🏄‍♀️ *_Travesía Manglares de Mandinga_*',
+        title: '🏄‍♀️ *_SUP Isla de las Conchitas_*',
         description: 'Adéntrate en la magia de los manglares de este pueblo pesquero, en una fascinante travesía ecológica por sus lagunas. Navega entre los canales naturales rodeados de exuberante vegetación, hogar de una rica diversidad de flora y fauna. Descubre la serenidad de este ecosistema único mientras disfrutas el folklor local y observas aves exóticas. Culmina la experiencia con una visita la Isla de Conchitas, donde podrás relajarte, tomar muchas fotos y conectar con la naturaleza. Una aventura perfecta para quienes buscan relajarse y disfrutar de un paisaje muy veracruzano.',
         link: 'https://reservaciones.supandsun.com.mx/paddle-board-mandinga/',
         image: 'https://reservaciones.supandsun.com.mx/media/img_bot/2.jpg',
@@ -86,6 +86,14 @@ const flowRopa = addKeyword(['3'])
         ]
     );
 
+    const flowAsesor = addKeyword(['4'])
+    .addAnswer(
+        [
+            '💬Para hablar con un asesor, haz clic en el siguiente enlace:\n',
+            '🔗 https://wa.me/+522296842130?text=Hola%20estoy%20interesado%20en%20hablar%20con%20un%20asesor%20de%20aventura.\n',
+        ]
+    );
+
 const flowPrincipal = addKeyword(['hola', 'ole', 'alo', 'Hola', '.' , 'Menu', 'menu', 'Inicio', 'inicio', 'Atras', 'atras', '0'])
     .addAnswer('¡Hola 👋 bienvenido al asistente virtual de ☀️ _SUP & SUN_ ☀️! Explore nuestro menú escribiendo lo siguiente:',
         { media: "http://reservaciones.supandsun.com.mx/media/img_bot/ss_logo.jpg" }
@@ -95,17 +103,18 @@ const flowPrincipal = addKeyword(['hola', 'ole', 'alo', 'Hola', '.' , 'Menu', 'm
             '🏝️ *1* - para ver nuestras actividades.',
             '🏄 *2* - para ver el catálogo de equipos.',
             '🩱 *3* - para ver el catálogo de ropa y accesorios.',
+            '👩🏼‍💻 *4* - para para hablar con un asesor aventurero.',
         ],
         null,
         null,
         [addKeyword(['1']).addAnswer('¡Aquí están nuestras actividades!\nObten más información escribiendo:').addAnswer([
-            '🏄‍♂️ *1* - para Paddle board open water.',
-            '🏄‍♀️ *2* - para Paddle board Mandinga.',
+            '🏄‍♂️ *1* - para SUP Isla de Sacrificios.',
+            '🏄‍♀️ *2* - para SUP Isla de las Conchitas.',
             '🧘 *3* - para SUP Yoga.',
             '🧘‍♀️ *4* - para Yoga.',
             '🌊 *5* - para Ocean Explorer.',
             '🚣‍♂️ *6* - para Boat Sailing.',
-        ], null, null, activityFlows), flowMateriales, flowRopa]
+        ], null, null, activityFlows), flowMateriales, flowRopa, flowAsesor]
     );
 
 const main = async () => {
