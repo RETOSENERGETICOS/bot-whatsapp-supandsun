@@ -6,7 +6,7 @@ const MockAdapter = require('@bot-whatsapp/database/mock');
 const activities = [
     {
         id: '1',
-        title: '🏄‍♂️ *_Travesía en Paddle a la Isla de Sacrificios_*',
+        title: '🏄‍♂️ *_Travesía en Paddle a la Isla de Sacrificios._*',
         description: 'Explora la belleza natural del mar de Veracruz en una emocionante travesía de paddle hacia la histórica Isla de Sacrificios. Este recorrido combina la aventura del deporte acuático con paisajes impresionantes de nuestro puerto. Durante el trayecto, disfrutarás del mar, avistarás fauna marina y pasarás un buen rato a cargo de nuestro equipo.\nIdeal para amantes del ecoturismo. ¡Atrévete a remar hacia la aventura!\n\nPrecio: *$590 MXN / PERSONA*\n',
         link: 'https://reservaciones.supandsun.com.mx/paddle-board-open-water/',
         image: 'https://reservaciones.supandsun.com.mx/media/img_bot/1.jpg',
