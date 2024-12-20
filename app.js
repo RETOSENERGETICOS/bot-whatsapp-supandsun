@@ -14,7 +14,7 @@ const activities = [
     {
         id: '2',
         title: '🏄‍♀️ *_SUP Isla de las Conchitas_*',
-        description: 'Adéntrate en la magia de los manglares de este pueblo pesquero, en una fascinante travesía ecológica por sus lagunas. Navega entre los canales naturales rodeados de exuberante vegetación, hogar de una rica diversidad de flora y fauna. Descubre la serenidad de este ecosistema único mientras disfrutas el folklor local y observas aves exóticas. Culmina la experiencia con una visita la Isla de Conchitas, donde podrás relajarte, tomar muchas fotos y conectar con la naturaleza. Una aventura perfecta para quienes buscan relajarse y disfrutar de un paisaje muy veracruzano.',
+        description: 'Adéntrate en la magia de los manglares de este pueblo pesquero, en una fascinante travesía ecológica por sus lagunas. Navega entre los canales naturales rodeados de exuberante vegetación, hogar de una rica diversidad de flora y fauna. Descubre la serenidad de este ecosistema único mientras disfrutas el folklor local y observas aves exóticas. Culmina la experiencia con una visita la Isla de Conchitas, donde podrás relajarte, tomar muchas fotos y conectar con la naturaleza. Una aventura perfecta para quienes buscan relajarse y disfrutar de un paisaje muy veracruzano.\n',
         link: 'https://reservaciones.supandsun.com.mx/paddle-board-mandinga/',
         image: 'https://reservaciones.supandsun.com.mx/media/img_bot/2.jpg',
     },
@@ -28,7 +28,7 @@ const activities = [
     {
         id: '4',
         title: '🧘‍♀️ *_Yoga_*',
-        description: 'El Yoga es una  práctica utiliza posturas físicas (Asanas), ejercicios de respiración (prenayama) y meditación para mejorar la salud general.\nEl Yoga se desarrolló como una práctica espiritual hace miles de años. Hoy en día, la mayoría de las personas en occidente que practican yoga lo hacen como ejercicio o para reducir el estrés.',
+        description: 'El Yoga es una  práctica utiliza posturas físicas (Asanas), ejercicios de respiración (prenayama) y meditación para mejorar la salud general.\nEl Yoga se desarrolló como una práctica espiritual hace miles de años. Hoy en día, la mayoría de las personas en occidente que practican yoga lo hacen como ejercicio o para reducir el estrés.\n',
         link: 'https://reservaciones.supandsun.com.mx/yoga/',
         image: 'https://reservaciones.supandsun.com.mx/media/img_bot/4.jpg',
     },
@@ -89,8 +89,7 @@ const flowRopa = addKeyword(['3'])
     const flowAsesor = addKeyword(['4'])
     .addAnswer(
         [
-            '💬Para hablar con un asesor, haz clic en el siguiente enlace:\n',
-            '🔗 https://wa.me/+522296842130?text=Hola%20estoy%20interesado%20en%20hablar%20con%20un%20asesor%20de%20aventura.\n',
+            '💬Espere un momento por favor, un asesor aventurero se pondrá en contacto con usted...',
         ]
     );
 
